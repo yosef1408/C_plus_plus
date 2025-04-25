@@ -1,3 +1,5 @@
 # ninja log v6
 6	428	7644379448631804	CMakeFiles/c__Interview.dir/main.cpp.obj	3e3fc4e529f7277e
+4	367	7672842368676386	build.ninja	f2b180b0174db990
 429	569	7644379452868493	c__Interview.exe	de1c7a271a30afeb
+24	247	7672016332418496	CMakeFiles/c__Interview.dir/precision.cpp.obj	52896c8477d5b15c

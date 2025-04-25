@@ -3,4 +3,13 @@ project(c__Interview)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(c__Interview main.cpp)
+add_executable(c__Interview
+        precision.cpp
+        precision.cpp
+        TempFormat.cpp
+        TempFormat.cpp
+        TempFormat.cpp
+        TempFormat.cpp
+        DelayTillYouHaveTo.h
+        Matrix.cpp
+        Matrix.h)
