@@ -67,6 +67,12 @@ build CMakeFiles/c__Interview.dir/Matrix.cpp.obj: CXX_COMPILER__c__Interview_uns
   OBJECT_DIR = CMakeFiles\c__Interview.dir
   OBJECT_FILE_DIR = CMakeFiles\c__Interview.dir
 
+build CMakeFiles/c__Interview.dir/OBject.cpp.obj: CXX_COMPILER__c__Interview_unscanned_Debug C$:/Users/user/CLionProjects/c++Interview/OBject.cpp || cmake_object_order_depends_target_c__Interview
+  DEP_FILE = CMakeFiles\c__Interview.dir\OBject.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c__Interview.dir
+  OBJECT_FILE_DIR = CMakeFiles\c__Interview.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c__Interview
@@ -75,7 +81,7 @@ build CMakeFiles/c__Interview.dir/Matrix.cpp.obj: CXX_COMPILER__c__Interview_uns
 #############################################
 # Link the executable c__Interview.exe
 
-build c__Interview.exe: CXX_EXECUTABLE_LINKER__c__Interview_Debug CMakeFiles/c__Interview.dir/precision.cpp.obj CMakeFiles/c__Interview.dir/TempFormat.cpp.obj CMakeFiles/c__Interview.dir/Matrix.cpp.obj
+build c__Interview.exe: CXX_EXECUTABLE_LINKER__c__Interview_Debug CMakeFiles/c__Interview.dir/precision.cpp.obj CMakeFiles/c__Interview.dir/TempFormat.cpp.obj CMakeFiles/c__Interview.dir/Matrix.cpp.obj CMakeFiles/c__Interview.dir/OBject.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\c__Interview.dir

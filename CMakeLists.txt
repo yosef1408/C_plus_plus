@@ -12,4 +12,6 @@ add_executable(c__Interview
         TempFormat.cpp
         DelayTillYouHaveTo.h
         Matrix.cpp
-        Matrix.h)
+        Matrix.h
+        OBject.cpp
+        OBject.h)
